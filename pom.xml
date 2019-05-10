@@ -9,24 +9,24 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <lombok.version>1.16.20</lombok.version>
+        <lombok.version>1.18.8</lombok.version>
         <javax.version>1</javax.version>
         <slf4j.version>1.7.21</slf4j.version>
-        <jredis.graph.version>1.0.6</jredis.graph.version>
+        <dgraph.version>1.7.3</dgraph.version>
         <jackson.version>2.9.8</jackson.version>
         <vertx.version>3.7.0</vertx.version>
 
         <org.junit.verion>5.4.2</org.junit.verion>
 
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
     </properties>
 
     <dependencies>
         <dependency>
-            <groupId>com.redislabs</groupId>
-            <artifactId>jredisgraph</artifactId>
-            <version>${jredis.graph.version}</version>
+            <groupId>io.dgraph</groupId>
+            <artifactId>dgraph4j</artifactId>
+            <version>${dgraph.version}</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
