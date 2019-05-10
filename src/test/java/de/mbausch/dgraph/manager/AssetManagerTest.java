@@ -15,7 +15,6 @@ import java.util.List;
 
 class AssetManagerTest {
 
-
     private DgraphClient dgraphClient;
 
     private ObjectMapper mapper = new ObjectMapper();
